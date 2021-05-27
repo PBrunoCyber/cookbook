@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Design/tabs.dart';
+import 'Effects_/downloadButton.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TabsPage(),
+      home: DownloadButtonPage(),
     );
   }
 }
